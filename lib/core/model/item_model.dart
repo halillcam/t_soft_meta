@@ -1,11 +1,15 @@
+import 'package:t_soft_meta/core/constants/item_constans.dart';
+
 class ItemModel {
-  String productName;
-  int price;
-  List<String> shops;
+  String itemName;
+  String itemImage;
+  Catergory itemCategory;
+  int itemPrice;
 
   ItemModel({
-    required this.productName,
-    required this.price,
-    required this.shops,
+    required this.itemName,
+    required this.itemImage,
+    required this.itemCategory,
+    required this.itemPrice,
   });
 }
